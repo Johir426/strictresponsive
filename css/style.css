@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+	background-coloryellow
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+ 
+
+}
+
+.header {
+    max-width: 1365px;
+    height: 80px;
+    background-color: #F5F9FA
+}
+
+.head {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.head .logo {
+    float: left;
+    margin-top: 20px
+}
+
+.head .logo img {
+    cursor: pointer
+}
+
+.head .logo img:hover {
+    opacity: 0.5
+}
+
+.head .menu {}
+
+.head .menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.head .menu ul .bar{
+    font-size: 36px;
+    margin-top: -50px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    color: black;
+    right:40px;
+}
+
+.head .menu ul li {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.head .menu ul .active a{
+	color: red
+	}
+
+.head .menu ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-size: 18px;
+    color: black;
+    font-weight: 800;
+
+}
+
+.head .menu ul li:hover a {
+    
+	color:red
+}
+
+
+/*************Header End************/
+/***************Meader Start**********/
+
+
+.first-sec {
+   max-width: 1365px;
+    height: 800px;
+    text-align: center;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: 100% 100%;
+    color: white
+}
+
+
+.first-mead {}
+
+.first-mead h1 {
+    padding-top: 200px;
+    font-size: 120px;
+    padding-bottom: 10px
+}
+
+.first-mead hr {
+    width: 580px;
+    margin: 0 auto;
+    border: 1px solid #258DD4;
+}
+
+.first-mead p {
+    padding: 20px 0px;
+    font-size: 20px
+}
+
+.first-mead button {
+    width: 190px;
+    height: 50px;
+    border: 1px solid #258DD4;
+    background: none;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+	text-transform:uppercase
+}
+
+.first-mead button:hover {
+    background-color: #258DD4;
+    color: white;
+}
+
+
+/*************first End************/
+/***************second Start**********/
+.second-sec {
+   max-width: 1365px;
+
+    background-color: #F5F9FA;
+    height: 300px
+}
+
+.second-mead {
+    text-align: center;
+    max-width:1200px;
+    margin: auto;
+    padding: 50px 0px
+    
+}
+
+.second-mead h1 {
+    font-size: 32px;
+
+}
+
+.second-mead p {
+    margin-top: 18px;
+    color: #B7B7B7;
+    padding: 0px 20px;
+
+}
+
+/*************second End************/
+/***************third Start**********/
+.third-sec {
+   max-width: 1365px;
+
+   
+    background-color: #ffffff;height: 360px
+}
+
+.third-mead {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+.third-mead .float {
+    max-width: 30%;
+    padding: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 1s all ease;
+    padding: 3%
+}
+
+.third-mead .float:hover {
+    border: 1px solid #00d0ff;
+
+}
+
+.third-mead .float i {
+    font-size: 42px;
+    background: linear-gradient(to right, #48BAFF 50%, #5FC3FF 50%);
+    padding: 25px 25px 25px 25px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    transition: .5s;
+    color: white;
+
+}
+
+.third-mead .float h1 {
+    padding-bottom: 15px;
+    transition: 0.5s all ease;
+    font-size: 2.3vw;
+}
+
+.third-mead .float p {
+    font-size: 16px;
+    color: #B7B7B7;
+    transition: 0.5s all ease
+}
+
+.third-mead .float:hover h1 {
+    color: #B7B7B7
+}
+
+.third-mead .float:hover p {
+    color: black;
+    opacity:
+}
+
+.third-mead .float:hover i {
+
+    background: none;
+    color: black
+}
+
+
+
+/*************third End************/
+/***************Fourth Start**********/
+
+
+
+.four-sec {
+   max-width: 1365px;
+    height: 750px;
+    background-color: #F5F9FA;
+    padding-top: 60px;
+}
+
+.four-mead {
+    max-width: 1200px;
+    margin: auto
+}
+
+.four-mead .showcase {
+    text-align: center
+}
+
+.four-mead .showcase h1 {
+    font-size: 42px;
+    color: #343A51;
+}
+
+.four-mead .showcase p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #AFB0B2;
+}
+
+.gallery {
+    margin-top: 50px
+}
+
+.gall {
+    max-width: 32%;
+    float: left;
+    margin-right: 2%;
+    position: relative;
+    cursor: pointer;
+    cursor: pointer;
+
+
+
+}
+
+.gall:nth-child(3),.gall:nth-child(6) {
+    margin-right: 0%
+}
+
+.gall:nth-child(4) {
+    margin-top: 20px
+}
+
+.gall:nth-child(5) {
+    margin-top: 20px
+}
+
+
+.gall:nth-child(6) {
+    margin-top: 20px
+}
+
+.gall .photo {
+    width: 30vw;
+    height: 250px;
+
+}
+
+.gallery .gall .wrap {
+    background: rgba(21, 164, 250, .9);
+    width: 30vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all ease .5s;
+
+
+
+}
+
+.gall img {}
+
+.gall i {
+    font-size:2vw;
+    border: 1px solid white;
+    padding: 10px 8px;
+    color: white;
+    opacity: 0;
+    transition: all ease 1s;
+    cursor: pointer;
+
+}
+.gall i:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.gall #search {
+    position: absolute;
+    top: 100px;
+    left: 36%;
+
+}
+
+.gall #link {
+    top: 100px;
+    right: 36%;
+    position: absolute;
+
+}
+
+
+
+.gallery .gall:hover i {
+
+
+    opacity: 1
+}
+
+.gallery .gall:hover .wrap {
+    opacity: 1
+}
+
+
+/*************fourth End************/
+/***************fivr Start**********/
+.five-sec {
+        max-width: 1365px;
+    height: 650px;
+    background-image: url(../images/bgg.png);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.five-mead {
+max-width: 565px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.five-mead .stay {}
+
+.five-mead .stay h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: normal;
+}
+
+.five-mead .stay p {
+    font-size: 18px;
+    color: white;
+    padding-top: 8px;
+}
+
+.five-mead .form {
+    padding-top: 30px;
+}
+
+.form input {
+    background: none;
+    width: 550px;
+    height: 50px;
+    margin: 10px 0px;
+    border: 2px solid #69717C
+}
+
+.form input:placeholder-shown {
+    padding-left: 10px
+}
+
+.form textarea {
+    width: 527px;
+    height: 200px;
+    background: none;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #858B9B;
+    border: 2px solid #69717C
+
+}
+
+.form input[type="checkbox"] {
+
+    width: 20px;
+    height: 20px;
+    background-color: #99A0AA;
+    position: absolute;
+    left: 0px;
+  border-radius: 20px;
+    margin-top: 22px
+}
+
+.form span {
+    position: absolute;
+    left: 35px;
+    margin-top: 22px;
+    color: white
+}
+
+.form button {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    height: 46px;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #258DD4;
+    border-radius: 3px
+    ;
+    cursor: pointer;
+    transition: all ease .5s;
+    color: white;
+    font-size: 18px
+}
+.form button:hover{
+    background-color: #258DD4;
+}
+
+
+.footer{ background-color: #F5F9FA;
+    max-width: 1365px;
+    height: 100px;
+    
+    
+}
+.foot{
+     width: 90%;
+    margin: auto;
+    position: relative;
+    padding-top: 40px
+   
+}
+.foot .copyright {
+    float: left
+}
+.foot .copyright h1{
+    font-size: 16px;
+    font-weight: normal;
+    color: #B7BBBC
+   
+    
+}
+.foot .social {
+        position: absolute;
+    right: 0;
+    display: inline-block
+    
+}
+.foot .social ul{
+
+}
+.foot .social li{ display: inline;
+ 
+   
+}
+.foot .social li a{
+    padding: 10px 10px 10px 12px;
+    background-color: #16A4FA;
+    margin: 3px;
+    color: white;
+    transition: all ease .5s
+
+}
+.foot .social li:hover a{
+    background-color: black;
+    color: #16A4FA;
+}
+
+
+
+
+
+
+
+
+
+
+

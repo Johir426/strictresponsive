@@ -1,0 +1,306 @@
+@media only screen and (max-width:1200px){
+
+	.header {
+	width: 100%;
+		height: 80px;
+		background-color: #F5F9FA;
+		margin: auto;
+	}
+	.head .menu ul {
+		margin-right: 20px;
+	}
+	.head .logo {
+		margin-left: 15px;
+	}
+	.four-mead {
+		min-width: 100%;
+		margin: auto
+	}
+	.gall {
+		max-width: 32%
+	}
+	.gall .photo {
+		width: 30vw;
+		height: 250px;
+	}
+	.gallery  {
+		max-width: 95%;
+		margin: auto;
+		margin-top: 50px
+	}
+
+
+
+}
+@media only screen and (max-width:920px){
+	.gall i {
+		font-size:1.6vw;
+		
+	
+	
+}
+@media only screen and (max-width:768px){
+
+
+.head .menu ul li a{
+	font-size: 2.3vw;
+}
+.first-mead h1 {
+    padding-top: 200px;
+    font-size: 100px;
+    padding-bottom: 10px
+}
+
+.first-mead hr {
+    width: 480px;
+    margin: 0 auto;
+    border: 1px solid #258DD4;
+}
+.third-mead .float {
+    max-width: 33.33%;
+}
+.third-mead .float h1 {
+   
+    font-size: 2.5vw;
+}
+.four-mead .showcase h1 {
+    font-size: 36px;
+    
+}
+.gall i {
+    font-size:1vw;
+}
+
+.gall #search {
+   
+	left: 35%;
+	top: 88px;
+
+}
+
+.gall #link {
+   
+	right: 35%;
+	top:88px;
+   
+
+}
+.gall .photo {
+    width: 30vw;
+    height: 200px;
+
+}
+.five-sec {
+    max-width: 1365px;
+    height: 650px;
+    background-image: url(../images/bgg.png);
+    text-align: center;
+	padding-top: 30px;
+	margin-top: -100px;
+	
+}
+
+}
+@media only screen and (max-width:576px){
+	.first-sec {
+		max-width: 1365px;
+		 height: 500px;
+		
+	 }
+	.five-sec {
+		max-width: 1365px;
+		height: 495px;
+		padding-top: 40px;
+	}
+	.first-mead h1 {
+		padding-top: 150px;
+		font-size: 15vw;
+		padding-bottom: 10px
+	}
+	.first-mead hr {
+		width: 85vw;
+		margin: 0 auto;
+		border: 1px solid #258DD4;
+	}
+	.head .menu ul .bar{
+		font-size: 36px;
+	
+		position: absolute;
+		display: block;
+	}
+	.head .menu ul{
+		display:block;
+		padding-top: 70px;
+		
+	}
+	.head .menu ul .bar:hover{
+		color: darkolivegreen;
+	}
+	.head .menu ul li{
+		display: none;
+		text-align: center;
+		margin-left: 0px;
+	
+		padding:0px 10px;
+
+	}
+	
+
+	.four-sec {
+		max-width: 100%;
+		 height: 750px;
+		 background-color: #F5F9FA;
+		margin-top: 380px;
+	 }
+	 .four-mead .showcase h1 {
+		font-size: 24px;
+	}
+	 .four-mead .showcase p {
+
+	}
+	.first-mead p {
+		padding: 20px 0px;
+		font-size: 3vw
+	}
+	.third-mead .float p {
+		font-size: 16px;
+		color: #B7B7B7;
+		transition: 0.5s all ease;
+		padding: 0px 60px;
+	}
+	.gall {
+		max-width: 100%;
+		float: none;
+		margin-right: 0%;
+		text-align: center;
+		margin-top: 15px;
+
+		
+	}
+	.gall .photo {
+		width: 65vw;
+		height: 250px;
+	}
+	.five-sec {
+		max-width: 1365px;
+		height: 650px;
+		
+		padding-top: 100px;
+		margin-top: 1040px;
+	}
+	.gallery .gall .wrap {
+		
+		width: 65vw;
+		left: 87px;
+		display: none;
+		
+	}
+	.gallery .gall:hover .wrap {
+		opacity: 0
+	}
+	.gall i {
+		font-size: 4.7vw;
+		border: 1px solid white;
+		padding: 10px 8px;
+		color: white;
+		opacity: 0;
+		transition: all ease 1s;
+	
+	}
+	.five-mead .stay h1 {
+		font-size: 42px;
+		
+	}
+	.five-mead .stay p {
+		font-size: 14px;
+	
+	}
+	.third-mead .float {
+	min-width: 100%;
+		padding: 20px;
+		border: 1px solid white;
+		cursor: pointer;
+		transition: 1s all ease;
+	
+	
+	}
+	.third-mead {
+		display: block; 
+		max-width: 500px;
+		margin: auto;
+		flex-wrap: nowrap;
+		text-align: center;
+		padding-top: 50px;
+	}
+	.five-sec {
+		
+		height: 500px;
+		padding-top: 0px;
+		
+	}
+	.form input {
+		
+		width: 90%;
+		height: 40px;
+		
+	}
+	.form textarea {
+		width: 88%;
+		height: 150px;
+		margin-top: 5px;
+		padding-left: 20px;
+		
+	}
+	.form span {
+		
+		left: 10%;
+		
+	}
+	.form input[type="checkbox"] {
+		
+		left: 4%;
+	
+		
+	}
+	.form button {
+		position: absolute;
+		right: 4%;
+		width: 120px;
+		height: 40px;
+		margin-top: 10px;
+		background: none;
+		border: 1px solid #258DD4;
+		border-radius: 3px
+		;
+		cursor: pointer;
+		transition: all ease .5s;
+		color: white;
+		font-size: 18px
+	}
+	.foot .copyright h1{
+		font-size: 2.5vw;
+	}
+	.foot{
+		width: 90%
+   }
+   .foot .social li a i{
+    padding: 0px 0px 0px 0px;
+   font-size: 10px;
+
+}
+.four-sec {
+min-width: 100%;
+	
+ }
+
+	
+
+
+}
+	
+@media only screen and (max-width:350px){
+}
+	
+	
+	@media only screen and (max-width:1200){
+	}
